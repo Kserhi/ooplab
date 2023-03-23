@@ -1,6 +1,7 @@
 package Lab2.prog1;
 
 public class One {
+
     public static void main(String[] args) {
         Two t1=new Two("one");
         Two t2=new Two("two");
@@ -15,5 +16,6 @@ public class One {
 
         System.out.println(t1.t.isAlive());
     }
+
 
 }
